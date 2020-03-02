@@ -2,8 +2,8 @@ package tp_gl_class;
 
 public class EmployerAncien extends Employer {
 
-	private String nom;
-    private String adress;
+	private String nom ="Ouedraogo";
+    private String adresse = "Rue de garches";
 	private int nbAnneeAncien;
 	
 	public EmployerAncien(int nbAnnee) {
@@ -16,5 +16,6 @@ public class EmployerAncien extends Employer {
 		// TODO Auto-generated method stub
 		return salaireDeBase+nbAnneeAncien*20;
 	}
+
 	
 }

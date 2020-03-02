@@ -1,8 +1,8 @@
 package tp_gl_class;
 
 public class Manager extends Employer {
-	private String nom;
-    private String adress;
+	private String nom ="Ouedraogo";
+    private String adresse = "Rue de garches";
     private int nbSubordonne;
     
     public Manager(int nbSub) {

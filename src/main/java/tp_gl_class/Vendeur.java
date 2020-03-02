@@ -1,8 +1,8 @@
 package tp_gl_class;
 
 public class Vendeur extends Employer {
-	private String nom;
-    private String adress;
+	private String nom ="Ouedraogo";
+    private String adresse = "Rue de garches";
 	private int nbAnneeAncien;
 	private double commission;
 	
