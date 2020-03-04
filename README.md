@@ -8,6 +8,7 @@
       {
 		private String nom ="Ouedraogo";
 		private String adresse = "Rue de garches";
+		public abstract double calculSalaire();
       }
  
  -On crée une classe abstraite pour un EmployerInitial qui calcul le salaire pour chaque type d'employé
